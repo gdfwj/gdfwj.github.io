@@ -85,7 +85,7 @@ Skills
 * Miscellaneous
   * Linux
   * Git
-  * \latex (Overleaf, Markdown)
+  * LaTeX (Overleaf, Markdown)
 * Language
   * Chinese (Native profiency)
   * English (Professional Proficiency) (TOEFL iBT 101 with Listening 27, reading 26, speaking 21, writing 27)

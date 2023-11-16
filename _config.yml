@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ch-CN"
 title                    : "Zihao Wang"
 title_separator          : "-"
 name                     : &name "Zihao Wang"
-description              : &description "undergraduate student at Beihang University"
+description              : &description "senior undergraduate student at Beihang University"
 url                      : https://gdfwj.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gdfwj.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Zihao Wang"
   avatar           : "profile.png"
-  bio              : "undergraduate student at Beihang University, interested in computer vision, reasoning and computational neuroscience"
+  bio              : "Senior undergraduate student at School of Computer Science and Engineering, Beihang University, interested in computer vision, reasoning and computational neuroscience"
   location         : "Beijing, China"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            : "zihaowang.chn@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  # twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :

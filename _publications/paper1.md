@@ -1,15 +1,15 @@
 ---
-title: "Reconstruction of perceived face images from fMRI with Double-flow GAN"
+title: "Double-Flow GAN model for the reconstruction of perceived faces from brain activities"
 collection: publications
 permalink: /publication/paper1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-12-01
 venue: 'Arxiv'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'This paper well be published soom on Arxiv by Dec, 2023.'
+paperurl: 'https://arxiv.org/abs/2312.07478'
+citation: 'Zihao Wang, Jing Zhao, and Hui Zhang. : “Double-Flow GAN model for the reconstruction of perceived faces from brain activities.” arXiv preprint arXiv:2312.07478 (2023).'
 ---
-This paper well be published soom on Arxiv by Dec, 2023. 
+Published in Arxiv, 2023
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://arxiv.org/abs/2312.07478)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Wang, Z.,Zhao, J., & Zhang H. (2023). Double-Flow GAN model for the reconstruction of perceived faces from brain activities. arXiv preprint arXiv:2312.07478. https://arxiv.org/abs/2312.07478

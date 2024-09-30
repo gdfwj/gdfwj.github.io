@@ -11,9 +11,13 @@ redirect_from:
 
 Education
 ======
-* B.Eng. in Computer Science and Engineering, Beihang University, 2024 (expected)
+* M.Sci. in Computer Science and Engineering, University of California San Diego, 2026 (expected)
+  * Just started
+* B.Eng. in Computer Science and Engineering, Beihang University, 2024 
   * General GPA: 3.88; Rank: 8% (20/239)
   * scholarships
+    * Nov. 2023; the 2nd place of Academic Merit Scholarship
+    * Nov. 2023; the 1st place of Discipline Competition Scholarship
     * Nov. 2022; the 2nd place of Academic Merit Scholarship
     * Nov. 2022; the 1st place of Discipline Competition Scholarship
     * Sept. 2021; Special Award for Academic Merit Scholarship
@@ -24,7 +28,7 @@ Education
 
 Research experience
 ======
-* Apr. 2023-Now: Reconstruction of brain-perceived images
+* Apr. 2023-Jun. 2024: Reconstruction of brain-perceived images
   * Mentor: associate research fellow Hui Zhang, Beihang University; research group: five students
   * Designed and trained a model to reconstruct the face image perceived in brain from fMRI data.
   * Implemented a pre-training strategy on the CelebA dataset, utilizing the features extracted by VGGFace as conditions, as a solution to the scarcity of fMRI-face paired data 

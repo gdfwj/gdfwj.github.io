@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* M.Sci. in Computer Science and Engineering, University of California San Diego, 2026 (expected)
+* M.S. in Computer Science and Engineering, University of California San Diego, 2026 (expected)
   * Just started
 * B.Eng. in Computer Science and Engineering, Beihang University, 2024 
   * General GPA: 3.88; Rank: 8% (20/239)

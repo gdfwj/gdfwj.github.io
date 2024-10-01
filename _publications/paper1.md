@@ -3,7 +3,7 @@ title: "Double-Flow GAN model for the reconstruction of perceived faces from bra
 collection: publications
 permalink: /publication/paper1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2023-12-01
+date: 2024-06-05
 venue: 'Arxiv'
 paperurl: 'https://arxiv.org/abs/2312.07478'
 citation: 'Wang, Z.,Zhao, J., & Zhang H. (2023). Double-Flow GAN model for the reconstruction of perceived faces from brain activities. arXiv preprint arXiv:2312.07478. https://arxiv.org/abs/2312.07478'

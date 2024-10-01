@@ -23,17 +23,18 @@ Education
     * Sept. 2021; Special Award for Academic Merit Scholarship
   * Main undergraduate courses
     * Specialized courses: Data Structures and Programming (99/100), Computer Organization (96), Object oriented Design Construction (98), Operating Systems (95), Introduction to Computers (100), Compiler Technology (95), Algorithm Design and Analysis (97), C Language System and Programming (99), Signal and System (98), Computer Network (93), Computer Network Experiments (97). 
-    * Mathematical courses: Mathematical Analysis for Engineering (I) (95); Mathematical Analysis for Engineering (II) (99); Advanced Algebra for Engineering (95); Discrete Mathematics (Information class) (95); Discrete Mathematics (2) (97), Discrete Mathematics (3) (96), Probability Theory and Statistics (92), Optimization in Computer Engineering (97).
+    * Mathematical courses: Mathematical Analysis for Engineering (I) (95); Mathematical Analysis for Engineering (II) (99); Advanced Algebra for Engineering (95); Discrete Mathematics (Information class) (95); Discrete Mathematics (2) (97), Discrete Mathematics (3) (96), Probability Theory and Statistics (92), Optimization in Computer Engineering (97), Numerical Analysis (98), Functional Analysis (87).
 
 
 Research experience
 ======
 * Apr. 2023-Jun. 2024: Reconstruction of brain-perceived images
-  * Mentor: associate research fellow Hui Zhang, Beihang University; research group: five students
-  * Designed and trained a model to reconstruct the face image perceived in brain from fMRI data.
-  * Implemented a pre-training strategy on the CelebA dataset, utilizing the features extracted by VGGFace as conditions, as a solution to the scarcity of fMRI-face paired data 
-  * Designed a double-flow architecture of the discriminator for GAN to challenge the generator.
-  * Prepare to submit on MICCAI’24 (Independent First Author), will be published on arxiv this December.
+  * Mentor: associate research fellow Hui Zhang, Beihang University; research group: three students
+  * Designed a comparison module that effectively compare rue and generated images by highlighting the differences between them.
+  * Designed a double-flow architecture of the discriminator for GAN to challenge the generator to keep optimization.
+  * Implemented a pre-training strategy on the CelebA dataset, utilizing the features extracted by VGGFace as conditions, as a solution to the scarcity of fMRI-face paired data and imbalance of data from two modalities.
+  * Reached the state-of-art in reconstructing the perceived face image perceived in brain from fMRI data and proved the Comparison Module to be effective.
+  * Wrote a paper as an independent first author and published it on ArXiv at https://arxiv.org/abs/2312.07478v2
 
 * Jun.-Aug. 2023: Migration of Trajectory Prediction from Pytorch to Mindspore Framework in Libcity (Independent)
   * Mentor: Prof. Jingyuan Wang, Director of Data Intelligence Research Center

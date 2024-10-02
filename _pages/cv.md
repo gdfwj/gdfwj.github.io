@@ -31,7 +31,7 @@ Research experience
 * Apr. 2023-Jun. 2024: Reconstruction of brain-perceived images
   * Mentor: associate research fellow Hui Zhang, Beihang University; research group: three students
   * Designed a comparison module that effectively compare rue and generated images by highlighting the differences between them.
-  * Designed a double-flow architecture of the discriminator for GAN to challenge the generator to keep optimization.
+  * Designed a double-flow architecture of the discriminator for Transformer-based GAN to challenge the generator to keep optimization.
   * Implemented a pre-training strategy on the CelebA dataset, utilizing the features extracted by VGGFace as conditions, as a solution to the scarcity of fMRI-face paired data and imbalance of data from two modalities.
   * Reached the state-of-art in reconstructing the perceived face image perceived in brain from fMRI data and proved the Comparison Module to be effective.
   * Wrote a paper as an independent first author and published it on ArXiv at https://arxiv.org/abs/2312.07478v2

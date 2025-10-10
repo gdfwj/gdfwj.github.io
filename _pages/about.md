@@ -8,17 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Master's student in Computer Science at UC San Diego. I have received my Bachelor's in Engineering at Beihang Univerisity in 2024.
+I am a second-year Master's student in Computer Science at UC San Diego. I have received my Bachelor's in Engineering at Beihang Univerisity in 2024.
 
-My reserach interest in AI lies on Machine Learning, Reasoning, LLM and Neural Architecture Search. I also interested in incorporating AI in neuroscience, including using view got in the learning algorithm to understand human brain and utilizes the insight got in the cognition to study the machine learning, such as brain decoding (former) and cognitive architecture (latter). I've published a paper on arXiv titled [Double-Flow GAN model for the reconstruction of perceived faces from brain activities](https://arxiv.org/pdf/2312.07478.pdf) coorperated with Prof. [Hui Zhang](https://shi.buaa.edu.cn/zhanghui2/zh_CN/index.htm)
+My reserach interest lies on Machine Learning, System for AI Agent, IoT and edge computing. I'm now working on AI for IoT and efficiency AI Agent systems on edge devices in SeeLab adviced by Prof. [Tajana Simunic Rosing](https://cseweb.ucsd.edu/~trosing/) and [Ye Tian](https://scholar.google.com/citations?user=P3hRr2wAAAAJ&hl=en). 
 
-### Honors and Awards
-Nov. 2023; the 2nd place of Academic Merit Scholarship
+### Publications
 
-Nov. 2023; the 1st place of Discipline Competition Scholarship
+1. Ye Tian\*, **Zihao Wang**\*, Onat Gungor, Xiaoran Fan, Tajana Rosing.  
+   *MultiLifeQA: A Multi-Domain Health Reasoning Benchmark.*  
+   *International Conference on Learning Representations (ICLR)*, **2026**. *(under review)*  
+   [**Project Code**](https://github.com/gdfwj/MultilifeQA) ｜ [**Paper PDF**](https://openreview.net/forum?id=5882BZyFdS)  
+   \*Co-first.
 
-Nov. 2022; the 2nd place of Academic Merit Scholarship of Beihang University
-
-Nov. 2022; the 1st place of Discipline Competition Scholarship of Beihang University
-
-Sept. 2021; Special Award for Academic Merit Scholarship of Beihang University
+2. Ye Tian, Xiaoyuan Ren, **Zihao Wang**, Onat Gungor, Xiaofan Yu, Tajana Rosing.  
+   *DailyLLM: Context-Aware Activity Log Generation Using Multi-Modal Sensors and LLMs.*  
+   *22nd IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS)*, **2025**.
+   [**Project Website**](https://gdfwj.github.io/DailyLLM) ｜ [**Paper PDF**](https://arxiv.org/abs/2507.13737)

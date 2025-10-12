@@ -2,7 +2,7 @@
 title: "DailyLLM: Context-Aware Activity Log Generation Using Multi-Modal Sensors and LLMs"
 collection: publications
 permalink: /publication/dailyllm
-date: 2025-05-07
+date: "2025-05-07"
 venue: '22nd IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS)'
 paperurl: 'https://arxiv.org/abs/2507.13737'
 status: 'published'

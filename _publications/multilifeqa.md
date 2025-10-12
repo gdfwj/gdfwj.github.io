@@ -2,7 +2,7 @@
 title: "MultiLifeQA: A Multi-Domain Health Reasoning Benchmark"
 collection: publications
 permalink: /publication/multilifeqa
-date: 2026-09-24
+date: "2026-09-24"
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://openreview.net/forum?id=5882BZyFdS'
 status: 'under review'

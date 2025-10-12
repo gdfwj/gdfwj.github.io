@@ -10,7 +10,7 @@ locale                   : "ch-CN"
 title                    : "Zihao Wang"
 title_separator          : "-"
 name                     : &name "Zihao Wang"
-description              : &description "first-year Master's student in UC San diego"
+description              : &description "second-year Master's student in UC San diego"
 url                      : https://gdfwj.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gdfwj.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zihao Wang"
   avatar           : "profile.png"
-  bio              : "First-year student in Master of Science of Computer Science in UC San Diego"
+  bio              : "Second-year student in Master of Science of Computer Science in UC San Diego"
   location         : "La Jolla, United States"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

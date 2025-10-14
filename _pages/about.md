@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Master's student in Computer Science at UC San Diego. I have received my Bachelor's in Engineering at Beihang Univerisity in 2024.
+I am a second-year Master's student in Computer Science at UC San Diego. I have received my Bachelor's in Computer Science at Beihang Univerisity in 2024.
 
 My research interest lies in Machine Learning, Systems for AI Agents, IoT (Internet of Things), and edge computing. I am currently working on AI for IoT and efficiency AI Agent systems on edge devices in SeeLab, advised by Prof. [Tajana Šimunić Rosing](https://cseweb.ucsd.edu/~trosing/) and [Ye Tian](https://scholar.google.com/citations?user=P3hRr2wAAAAJ&hl=en). 
 

@@ -15,11 +15,12 @@ My research interests lie in Machine Learning, IoT (Internet of Things), LLM (La
 
 ### Publications
 
-1. Ye Tian\*, **Zihao Wang**\*, Onat Gungor, Xiaoran Fan, Tajana Rosing.  
-   *MultiLifeQA: A Multi-Domain Health Reasoning Benchmark.*  
-   *International Conference on Learning Representations (ICLR)*, **2026**. *(under review)*  
-   [**Project Code**](https://github.com/gdfwj/MultilifeQA) ｜ [**Paper PDF**](https://openreview.net/forum?id=5882BZyFdS)  
-   \*Co-first.
+1. Ye Tian*, **Zihao Wang***, Onat Gungor, Xiaoran Fan, Tajana Rosing.
+   *LifeAgentBench: A Multi-dimensional Benchmark and Agent for Personal Health Assistants in Digital Health.*
+   *International Joint Conference on Artificial Intelligence (IJCAI)*, **2026**. *(under review)*
+   [**Project Code**](https://github.com/gdfwj/LifeAgentBench) ｜ [**Paper PDF**](https://arxiv.org/pdf/2601.13880.pdf)
+   *Co-first.
+
 
 2. Ye Tian, Xiaoyuan Ren, **Zihao Wang**, Onat Gungor, Xiaofan Yu, Tajana Rosing.  
    *DailyLLM: Context-Aware Activity Log Generation Using Multi-Modal Sensors and LLMs.*  

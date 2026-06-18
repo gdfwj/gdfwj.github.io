@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Zihao Wang"
   avatar           : "profile.png"
-  bio              : "Second-year student in Master of Science of Computer Science in UC San Diego"
-  location         : "La Jolla, United States"
+  bio              : "Incoming PhD student in Computer Science at UC Irvine"
+  location         : "Irvine, United States"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "zihaowang.chn@gmail.com"
+  email            : "ZIHAOW41@uci.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -15,7 +15,7 @@ My research interests cover LLMs for understanding multi-modal sensing data, and
 
 ### Publications
 
-1. Ye Tian*, **Zihao Wang***, Onat Gungor, Xiaoran Fan, Tajana Rosing.
+1. Ye Tian/*, **Zihao Wang/***, Onat Gungor, Xiaoran Fan, Tajana Rosing.
    *LifeAgentBench: A Multi-dimensional Benchmark and Agent for Personal Health Assistants in Digital Health.*
    *The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP main)*, **2026**. 
    [**Project Code**](https://github.com/gdfwj/LifeAgentBench) ｜ [**Paper PDF**](https://arxiv.org/pdf/2601.13880.pdf)
@@ -30,5 +30,5 @@ My research interests cover LLMs for understanding multi-modal sensing data, and
 3. Ye Tian, Jingyi Zhang, **Zihao Wang**, Xiaoyuan Ren, Xiaofan Yu, Onat Gungor, Tajana Rosing. 
    *KLDrive: Fine-Grained 3D Scene Reasoning for Autonomous Driving based on Knowledge Graph. *
    *The 41st Annual AAAI Conference on Artificial Intelligence (AAAI)*, **2026** (under review)
-   
+
 

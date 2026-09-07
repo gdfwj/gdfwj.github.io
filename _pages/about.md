@@ -18,7 +18,7 @@ My research interests cover LLMs for understanding multi-modal sensing data, and
 1. Ye Tian\*, **Zihao Wang\***, Onat Gungor, Xiaoran Fan, Tajana Rosing.
    *LifeAgentBench: A Multi-dimensional Benchmark and Agent for Personal Health Assistants in Digital Health.*
    *The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP main)*, **2026**. 
-   [**Project Code**](https://github.com/gdfwj/LifeAgentBench) ｜ [**Paper PDF**](https://arxiv.org/pdf/2601.13880.pdf)
+   [**Project Website**](https://gdfwj.github.io/LifeAgentBench) ｜ [**Paper PDF**](https://arxiv.org/pdf/2601.13880.pdf)
    *Co-first.
 
 

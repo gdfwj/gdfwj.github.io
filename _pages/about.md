@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming PhD student in Computer Science at UC Irvine, where I am honored to be advised by [Prof. Nalini Venkatasubramanian](https://nalini.ics.uci.edu/). I have received my Master's in Computer Science from UC San Diego in 2026, where I worked with [Prof. Tajana Šimunić Rosing](https://cseweb.ucsd.edu/~trosing/) and mentor [Ye Tian](https://yetianucsd.github.io/) in [SEELab](https://seelab.ucsd.edu/) on IoT and edge AI. 
+I am a first-year PhD student in Computer Science at UC Irvine, where I am honored to be advised by [Prof. Nalini Venkatasubramanian](https://nalini.ics.uci.edu/). I have received my Master's in Computer Science from UC San Diego in 2026, where I worked with [Prof. Tajana Šimunić Rosing](https://cseweb.ucsd.edu/~trosing/) and mentor [Ye Tian](https://yetianucsd.github.io/) in [SEELab](https://seelab.ucsd.edu/) on IoT and edge AI. 
 
 My research interests cover LLMs for understanding multi-modal sensing data, and edge systems for LLMs. My recent research focuses on Efficient training and inference on resource-constrained devices. 
 <!-- I have received my Bachelor's in Computer Science at Beihang Univerisity in 2024. -->

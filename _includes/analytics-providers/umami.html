@@ -1,0 +1,10 @@
+{% assign umami_website_id = site.analytics.umami.website_id | default: "" | strip %}
+{% if jekyll.environment == "production" and umami_website_id != "" %}
+<script defer
+  src="{{ site.analytics.umami.script_url | escape }}"
+  data-website-id="{{ umami_website_id | escape }}"
+  data-domains="{{ site.analytics.umami.domains | escape }}"
+  data-do-not-track="true"
+  data-exclude-search="true"
+  data-exclude-hash="true"></script>
+{% endif %}

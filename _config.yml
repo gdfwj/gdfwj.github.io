@@ -73,7 +73,13 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "umami" # false, "umami", "google", "google-universal", "custom"
+  umami:
+    # Public website ID from Umami > Websites > Edit > Tracking code.
+    # Leave empty to disable collection. Never put an API key or password here.
+    website_id           : "412e36ff-20b1-4848-b7d8-78346171f152"
+    script_url           : "https://cloud.umami.is/script.js"
+    domains              : "gdfwj.github.io"
   google:
     tracking_id          :
 

@@ -25,8 +25,8 @@ Website ID 是公开的采集标识，会出现在网页源码中；它不是后
 - 查看线上页面源码，确认有一个带自己 Website ID 的 Umami 脚本；浏览器开发者工具 Network 中应能看到脚本及采集请求成功。
 - 网站仅在 `JEKYLL_ENV=production` 构建且 ID 非空时加入脚本；GitHub Pages 使用 production，本地默认开发构建不加载统计。
   `data-domains` 还将采集限制在 `gdfwj.github.io`。将来更换域名时同步修改这个值和 Umami 后台网站设置。
-- 尊重浏览器 Do Not Track，不采集当前页面 URL 的查询参数和 `#` 片段；未启用会话录屏或精确定位。
-- 广告拦截、Do Not Track、禁用 JavaScript 或网络不可达会导致漏计；这里只统计启用后的页面访问，无法补查历史，也不统计直接打开 PDF 的访问。
+- 不因浏览器 Do Not Track 信号跳过统计（`data-do-not-track="false"`）。不采集当前页面 URL 的查询参数和 `#` 片段；未启用会话录屏或精确定位。
+- 广告拦截、浏览器跟踪防护、禁用 JavaScript 或网络不可达会导致漏计；这里只统计启用后的页面访问，无法补查历史，也不统计直接打开 PDF 的访问。
 - 排除自己：在访问主页时打开浏览器控制台，执行 `localStorage.setItem('umami.disabled', '1')`，然后刷新。
   恢复统计执行 `localStorage.removeItem('umami.disabled')`。此设置只针对当前浏览器、当前站点。
 - 停止统计：将 `analytics.provider` 改为 `false`，或清空 `website_id`，再部署。既有数据仍由 Umami 后台管理。

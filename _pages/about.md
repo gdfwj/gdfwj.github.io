@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 layout: home
+body_class: home-background
 ---
 
 <section class="home-card home-about" markdown="1">

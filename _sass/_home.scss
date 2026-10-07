@@ -1,11 +1,13 @@
+body.home-background { background: #f6f8fb; }
+
 .home-page {
   .home-card {
     margin: 0 0 24px;
     padding: 26px 28px;
-    border: 1px solid #e5e9ee;
+    border: 1px solid #dce3eb;
     border-radius: 12px;
     background: #fff;
-    box-shadow: 0 3px 12px rgba(25, 40, 60, 0.04);
+    box-shadow: 0 3px 12px rgba(25, 40, 60, 0.06);
 
     h1, h2 {
       margin: 0 0 20px;

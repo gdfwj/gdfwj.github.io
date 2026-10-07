@@ -2,13 +2,13 @@
 title: "Double-Flow GAN Model for the Reconstruction of Perceived Faces from Brain Activities"
 collection: publications
 permalink: /publication/doubleflowgan
-date: "2024-06-05"
+date: "2023-12-01"
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2312.07478v2'
 status: 'preprint'
-excerpt: "This paper proposes Double-Flow GAN, a dual-stream generative adversarial framework that reconstructs perceived human faces from fMRI brain activity. The model leverages a feature-aligned latent space to enhance perceptual realism and structural accuracy, achieving state-of-the-art performance in neural decoding."
-citation: 'Wang, Z., Zhao, J., & Zhang, H. (2024). Double-Flow GAN Model for the Reconstruction of Perceived Faces from Brain Activities. arXiv preprint arXiv:2312.07478.'
-authors: "**Zihao Wang**, Jing Zhao, Hui Zhang"
+excerpt: "Double-Flow GAN reconstructs perceived face images from fMRI signals. The pipeline uses CelebA pretraining with VGGFace feature conditioning to mitigate limited paired fMRI-image data and a double-flow discriminator to improve reconstruction fidelity."
+citation: 'Wang, Z., Zhao, J., Ding, X., & Zhang, H. (2023). Double-Flow GAN model for the reconstruction of perceived faces from brain activities. arXiv:2312.07478.'
+authors: "**Zihao Wang**, Jing Zhao, Xuetong Ding, Hui Zhang"
 links:
   - name: "Paper PDF"
     url: "https://arxiv.org/pdf/2312.07478v2.pdf"

@@ -1,0 +1,3 @@
+- **University of California, Irvine** — PhD student in Computer Science, **September 2026–Present**. Advisor: [Prof. Nalini Venkatasubramanian](https://nalini.ics.uci.edu/).
+- **University of California, San Diego** — Master of Science in Computer Science, **September 2024–June 2026**. Research with [Prof. Tajana Šimunić Rosing](https://cseweb.ucsd.edu/~trosing/) and [Ye Tian](https://yetianucsd.github.io/) in [SEELab](https://seelab.ucsd.edu/).
+- **Beihang University** — Bachelor of Engineering in Computer Science and Technology, **September 2020–June 2024**.

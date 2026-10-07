@@ -1,0 +1,38 @@
+{% assign publications = site.publications | sort: "date" | reverse %}
+{% assign previous_year = '' %}
+<div class="publications-layout">
+  <div class="publications-years">
+    {% for post in publications %}
+      {% assign year = post.date | date: "%Y" %}
+      {% if year != previous_year %}
+        {% unless forloop.first %}</div></section>{% endunless %}
+        <section class="publication-year" aria-labelledby="year-{{ year }}">
+          <h2 id="year-{{ year }}">{{ year }}</h2>
+          <div class="publication-group">
+        {% assign previous_year = year %}
+      {% endif %}
+      <article class="publication-row">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="publication-authors">{{ post.authors | markdownify }}</div>
+        <p class="publication-venue"><em>{{ post.venue }}</em>{% if post.pages %}, pp. {{ post.pages }}{% endif %}
+          {% if post.status == 'accepted' %}<span class="publication-status publication-status--accepted">Accepted</span>{% elsif post.status == 'under review' %}<span class="publication-status">Under review{% if post.review_venue %} at {{ post.review_venue }}{% endif %}</span>{% elsif post.status == 'preprint' %}<span class="publication-status">Preprint</span>{% endif %}
+        </p>
+        <div class="publication-links">
+          {% for link in post.links %}<a href="{{ link.url }}">[{{ link.name }}]</a>{% endfor %}
+          {% if post.co_first %}<span class="publication-note">* Equal contribution</span>{% endif %}
+        </div>
+      </article>
+      {% if forloop.last %}</div></section>{% endif %}
+    {% endfor %}
+  </div>
+  <nav class="publication-year-nav" aria-label="Publication years">
+    {% assign previous_year = '' %}
+    {% for post in publications %}
+      {% assign year = post.date | date: "%Y" %}
+      {% if year != previous_year %}
+        <a href="#year-{{ year }}">{{ year }}</a>
+        {% assign previous_year = year %}
+      {% endif %}
+    {% endfor %}
+  </nav>
+</div>

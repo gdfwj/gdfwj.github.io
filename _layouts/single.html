@@ -36,6 +36,10 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          {{ page.authors | markdownify }}
+          <p><i>{{ page.venue }}</i>, {{ page.date | date: "%Y" }}{% if page.pages %}, pp. {{ page.pages }}{% endif %}{% if page.status == 'accepted' %} (accepted){% elsif page.status == 'preprint' %} (preprint){% elsif page.status == 'under review' %} (under review{% if page.review_venue %} at {{ page.review_venue }}{% endif %}){% endif %}.</p>
+          <p>{% for link in page.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -53,6 +57,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' and page.excerpt %}{{ page.excerpt | markdownify }}{% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

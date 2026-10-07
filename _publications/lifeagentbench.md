@@ -1,14 +1,16 @@
 ---
-title: "LifeAgentBench: A Multi-dimensional Benchmark and Agent for Personal Health Assistants in Digital Health"
+title: "LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning"
 collection: publications
 permalink: /publication/lifeagentbench
 date: "2026-01-20"
-venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
-status: "under review"
+venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), main conference"
+status: "accepted"
+selected: true
+co_first: true
 paperurl: "https://arxiv.org/abs/2601.13880"
-excerpt: "We introduce LifeAgentBench, a large-scale QA benchmark (22,573 questions) for long-horizon, cross-dimensional, and multi-user lifestyle health reasoning over structured health records (diet, activity, sleep, and emotion). We provide a standardized evaluation protocol, evaluate 11 leading LLMs, and propose LifeAgent, a training-free tool-calling baseline that improves performance via multi-step evidence retrieval and deterministic aggregation."
-citation: 'Tian, Y.$^*$, Wang, Z.$^*$, Gungor, O., Fan, X., & Rosing, T. (2026). LifeAgentBench: A Multi-dimensional Benchmark and Agent for Personal Health Assistants in Digital Health. arXiv:2601.13880. Under review at IJCAI.'
-authors: Ye Tian$^*$, **Zihao Wang$^*$**, Onat Gungor, Xiaoran Fan, Tajana Rosing
+excerpt: "LifeAgentBench contains 22,573 questions spanning single-domain retrieval to long-horizon, cross-dimensional reasoning over structured lifestyle health records. The latest benchmark study evaluates 13 LLMs. LifeAgent is a training-free, tool-augmented baseline using question decomposition, iterative retrieval, and deterministic computation."
+citation: 'Tian, Y., Wang, Z., Gungor, O., Fan, X., & Rosing, T. (2026). LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning. Conference on Empirical Methods in Natural Language Processing (EMNLP), main conference. Accepted. Tian and Wang contributed equally.'
+authors: Ye Tian\*, **Zihao Wang\***, Onat Gungor, Xiaoran Fan, Tajana Rosing
 links:
   - name: "Project Code"
     url: "https://github.com/gdfwj/LifeAgentBench"

@@ -10,7 +10,7 @@ locale                   : "ch-CN"
 title                    : "Zihao Wang"
 title_separator          : "-"
 name                     : &name "Zihao Wang"
-description              : &description "second-year Master's student in UC San diego"
+description              : &description "PhD student in Computer Science at UC Irvine"
 url                      : https://gdfwj.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gdfwj.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Zihao Wang （王子豪）"
   avatar           : "profile.png"
-  bio              : "Incoming PhD student in Computer Science at UC Irvine"
+  bio              : "PhD student in Computer Science at UC Irvine"
   location         : "Irvine, United States"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "ZIHAOW41@uci.edu"
+  email            : "ziw140@ucsd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

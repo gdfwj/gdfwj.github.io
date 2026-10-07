@@ -47,10 +47,13 @@
             </p>
           {% endif %}
           <p>
-            Published in <i>{{ post.venue }}</i>
-            {% if post.status %} (<span class="pub-status">{{ post.status }}</span>){% endif %},
+            <i>{{ post.venue }}</i>
+            {% if post.status %} (<span class="pub-status">{{ post.status }}{% if post.status == 'under review' and post.review_venue %} at {{ post.review_venue }}{% endif %}</span>){% endif %},
             {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            {% if post.pages %}, pp. {{ post.pages }}{% endif %}
           </p>
+          <p>{% for link in post.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+          {% if post.co_first %}<p><small>*Co-first authors.</small></p>{% endif %}
           {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}

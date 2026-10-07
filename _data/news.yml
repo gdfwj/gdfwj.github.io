@@ -1,0 +1,19 @@
+# Keep years and items in the order you want them displayed (newest first).
+# "date" is a display label, so use "Sep", "Sep 01", or leave it empty.
+# "text" supports Markdown links and bold text.
+- year: 2026
+  items:
+    - date: "Sep"
+      text: "I joined UC Irvine as a PhD student in Computer Science, advised by Prof. Nalini Venkatasubramanian."
+    - date: ""
+      text: "LifeAgentBench was accepted to the **EMNLP main conference**."
+    - date: "Jun"
+      text: "I received my Master's in Computer Science from UC San Diego."
+    - date: "Mar"
+      text: "Our [KLDrive preprint](https://arxiv.org/abs/2603.21029) is available."
+    - date: "Jan"
+      text: "Our [LifeAgentBench preprint](https://arxiv.org/abs/2601.13880) and [project code](https://github.com/gdfwj/LifeAgentBench) are available."
+- year: 2025
+  items:
+    - date: ""
+      text: "Our paper [DailyLLM](https://arxiv.org/abs/2507.13737) appeared at **IEEE MASS 2025**."

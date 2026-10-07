@@ -1,0 +1,16 @@
+<section class="home-card home-news" aria-labelledby="news-title">
+  <h2 id="news-title">News</h2>
+  {% for group in site.data.news %}
+  <div class="news-year-group">
+    <h3 class="news-year">{{ group.year }}</h3>
+    <ul class="news-items">
+      {% for item in group.items %}
+      <li class="news-item">
+        <div class="news-text">{{ item.text | markdownify }}</div>
+        {% if item.date and item.date != '' %}<span class="news-date">{{ item.date }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>

@@ -1,0 +1,75 @@
+.home-page {
+  .home-card {
+    margin: 0 0 24px;
+    padding: 26px 28px;
+    border: 1px solid #e5e9ee;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(25, 40, 60, 0.04);
+
+    h1, h2 {
+      margin: 0 0 20px;
+      padding: 0 0 14px;
+      border-bottom: 1px solid #edf0f4;
+      color: #252d37;
+      font-size: 1.15em;
+    }
+
+    p, li { font-size: 0.88em; line-height: 1.75; }
+    p { margin: 0 0 16px; }
+    > p:last-child { margin-bottom: 0; }
+    a { color: #2167b0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 2px solid #2167b0; outline-offset: 3px; }
+    ul { margin-bottom: 0; padding-left: 20px; }
+    li + li { margin-top: 14px; }
+  }
+
+  .home-about {
+    border-top: 3px solid #2167b0;
+    .home-cv-link {
+      display: inline-block;
+      padding: 7px 14px;
+      border: 1px solid #d8e5f4;
+      border-radius: 6px;
+      background: #edf4fc;
+      font-weight: 600;
+    }
+  }
+
+  .news-year-group {
+    display: grid;
+    grid-template-columns: 55px minmax(0, 1fr);
+    gap: 16px;
+    + .news-year-group { margin-top: 18px; padding-top: 18px; border-top: 1px solid #edf0f4; }
+  }
+  .news-year { margin: 3px 0 0; font-size: 0.88em; color: #647180; }
+  .home-news .news-items { margin: 0; padding: 0; list-style: none; }
+  .home-news .news-item {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    + .news-item { margin-top: 10px; }
+  }
+  .news-text { flex: 1; min-width: 0; p { margin: 0; font-size: 1em; } }
+  .news-date { flex-shrink: 0; color: #647180; font-size: 0.88em; white-space: nowrap; }
+
+  .home-publications {
+    .list__item { padding: 0; }
+    .list__item + .list__item { margin-top: 20px; padding-top: 20px; border-top: 1px solid #edf0f4; }
+    .archive__item-title { margin: 0 0 8px; font-size: 1em; line-height: 1.5; }
+    .archive__item-title a { color: #252d37; }
+    .archive__item p { margin-bottom: 8px; font-size: 0.78em; }
+    .archive__item p:last-child { margin-bottom: 0; }
+    > p:last-child { margin-top: 20px; }
+  }
+
+  .visitor-map-widget { max-width: 360px; margin: 0 auto; text-align: center; img, iframe { max-width: 100%; } }
+  .visitor-map-pending { color: #647180; padding: 24px 0; }
+
+  @media (max-width: 600px) {
+    .home-card { padding: 20px 18px; margin-bottom: 18px; }
+    .news-year-group { grid-template-columns: 44px minmax(0, 1fr); gap: 10px; }
+    .home-news .news-item { gap: 10px; }
+  }
+}

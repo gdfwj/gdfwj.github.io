@@ -1,0 +1,10 @@
+<section class="home-card home-visitor-map" aria-labelledby="visitor-map-title">
+  <h2 id="visitor-map-title">Visitor Map</h2>
+  <div class="visitor-map-widget">
+    {% if site.data.visitor-map.widget_id and site.data.visitor-map.widget_id != '' %}
+    <script id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ site.data.visitor-map.widget_id | url_encode }}&amp;cl=ffffff&amp;w=a"></script>
+    {% else %}
+    <p class="visitor-map-pending">Visitor map coming soon.</p>
+    {% endif %}
+  </div>
+</section>

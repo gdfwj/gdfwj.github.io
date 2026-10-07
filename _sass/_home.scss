@@ -39,6 +39,11 @@ body.home-background { background: #f6f8fb; }
     }
   }
 
+  .home-card .education-list { list-style: none; padding: 0; }
+  .education-list li { display: flex; align-items: flex-start; gap: 12px; }
+  .school-badge { flex: 0 0 28px; width: 28px; height: 28px; object-fit: contain; margin-top: 3px; }
+  .education-details { flex: 1; min-width: 0; p { margin: 0; font-size: 1em; } }
+
   .news-year-group {
     display: grid;
     grid-template-columns: 55px minmax(0, 1fr);

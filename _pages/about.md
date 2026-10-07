@@ -14,7 +14,7 @@ My research focuses on distributed systems for edge LLM serving, resource-effici
 
 ## CV
 
-[View my CV]({{ '/cv/' | relative_url }}) · [Download CV (PDF)]({{ '/files/CV.pdf' | relative_url }})
+[Download CV (PDF)]({{ '/files/CV.pdf' | relative_url }})
 
 ## Education
 

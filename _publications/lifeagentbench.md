@@ -12,6 +12,8 @@ excerpt: "LifeAgentBench contains 22,573 questions spanning single-domain retrie
 citation: 'Tian, Y., Wang, Z., Gungor, O., Fan, X., & Rosing, T. (2026). LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning. Conference on Empirical Methods in Natural Language Processing (EMNLP), main conference. Accepted. Tian and Wang contributed equally.'
 authors: Ye Tian\*, **Zihao Wang\***, Onat Gungor, Xiaoran Fan, Tajana Rosing
 links:
+  - name: "Project Website"
+    url: "https://gdfwj.github.io/LifeAgentBench/"
   - name: "Project Code"
     url: "https://github.com/gdfwj/LifeAgentBench"
   - name: "Paper PDF"

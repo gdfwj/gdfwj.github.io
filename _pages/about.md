@@ -13,11 +13,10 @@ body_class: home-background
 <section class="home-card home-about" markdown="1">
 # About me
 
-I am a PhD student in Computer Science at UC Irvine, advised by [Prof. Nalini Venkatasubramanian](https://nalini.ics.uci.edu/). I received my Master of Science in Computer Science from UC San Diego in June 2026, where I worked with [Prof. Tajana Šimunić Rosing](https://cseweb.ucsd.edu/~trosing/) and mentor [Ye Tian](https://yetianucsd.github.io/) in [SEELab](https://seelab.ucsd.edu/) on IoT and edge AI. I received my Bachelor of Engineering in Computer Science and Technology from Beihang University in June 2024.
+I am a PhD student in Computer Science at UC Irvine, advised by [Prof. Nalini Venkatasubramanian](https://nalini.ics.uci.edu/). I received my Master of Science in Computer Science from UC San Diego in June 2026, where I worked with [Prof. Tajana Šimunić Rosing](https://cseweb.ucsd.edu/~trosing/) and mentor [Ye Tian](https://yetianucsd.github.io/) in [SEELab](https://seelab.ucsd.edu/) on IoT and edge AI.
 
 My research focuses on distributed systems for edge LLM serving, resource-efficient inference, sensor-grounded reasoning, and privacy-aware and connectivity-resilient smart spaces. At UC Irvine, I am exploring distributed LLM serving across local edge devices and how sensing and contextual data can support locally grounded reasoning.
 
-[Download CV (PDF)]({{ "/files/CV.pdf" | relative_url }}){: .home-cv-link }
 </section>
 
 <section class="home-card" markdown="1">

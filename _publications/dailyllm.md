@@ -16,8 +16,6 @@ links:
     url: "https://gdfwj.github.io/DailyLLM/"
   - name: "Project Code"
     url: "https://github.com/gdfwj/DailyLLM"
-  - name: "Paper PDF"
-    url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11206243"
-  - name: "Published Paper"
+  - name: "Paper"
     url: "https://ieeexplore.ieee.org/abstract/document/11206243"
 ---

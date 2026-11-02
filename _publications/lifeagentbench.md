@@ -15,6 +15,6 @@ links:
     url: "https://gdfwj.github.io/LifeAgentBench/"
   - name: "Project Code"
     url: "https://github.com/gdfwj/LifeAgentBench"
-  - name: "Paper PDF"
-    url: "https://aclanthology.org/2026.emnlp-main.746.pdf"
+  - name: "Paper"
+    url: "https://aclanthology.org/2026.emnlp-main.746/"
 ---

@@ -13,6 +13,6 @@ links:
     url: ""
   - name: "Project Code"
     url: ""
-  - name: "Paper PDF"
-    url: "https://arxiv.org/pdf/2603.21029"
+  - name: "Paper"
+    url: "https://arxiv.org/abs/2603.21029"
 ---

@@ -1,0 +1,8 @@
+{% assign resource_names = 'Project Website|Project Code|Paper PDF|Published Paper' | split: '|' %}
+{% for resource_name in resource_names %}
+  {% for resource in post.links %}
+    {% if resource.name == resource_name and resource.url and resource.url != '' %}
+      <a href="{{ resource.url | escape }}">[{{ resource.name }}]</a>
+    {% endif %}
+  {% endfor %}
+{% endfor %}

@@ -3,6 +3,8 @@
 # "text" supports Markdown links and bold text.
 - year: 2026
   items:
+    - date: "Nov 18"
+      text: "Our preprint [LEDGE: An Efficient Simulator for Distributed LLM Serving on Heterogeneous Edge Devices](https://arxiv.org/abs/2611.24085) is now available."
     - date: "Sep"
       text: "I joined UC Irvine as a PhD student in Computer Science, advised by Prof. Nalini Venkatasubramanian."
     - date: "Sep"
